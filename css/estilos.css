@@ -529,19 +529,11 @@ footer{
         flex-direction: column;
     }
 
-    #footer{
-        margin-top: 200px;
-    }
 }
 
 @media screen and (max-width: 350px) {
     .inicio__titulo{
         font-size: 60px;
-    }
-
-
-    #footer{
-        margin-top: 250px;
     }
 }
 
