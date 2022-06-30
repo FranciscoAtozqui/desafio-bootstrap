@@ -147,61 +147,15 @@ section#inicio {
 
 /*SECCION CARACTERISTICAS INDEX*/
 
-#caracteristicas h2{
-    font-size: 30px;
-    text-align: center;
-    color: #476b6b;
-    font-weight: bold;
-    margin-bottom: 30px;
+#caracteristicas{
     margin-top: 200px;
-}
-
-.wrapper__container{
-    display: grid;
-    grid-template-areas: 
-    "comunicacion experiencia canchas";
-    grid-template-columns: 1fr 1fr 1fr;
     color: #476b6b;
-    margin: 0 auto;
-    height: 40vh;
-    width: 80%;
-    margin-bottom: 50px;
-}
-
-.caracteristicas__comunicacion{
-    grid-area: comunicacion;
-}
-
-.caracteristicas__experiencia{
-    grid-area: experiencia;
-}
-
-.caracteristicas__canchas{
-    grid-area: canchas;
-}
-
-.item{
-    border: 2px outset #BADA55;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    font-size: 20px;
-    margin: 20px;
 }
 
 #caracteristicas i{
     font-size: 60px;
 }
-
-#caracteristicas h3{
-    margin-left: 10px;
-}
-
-
 /*INDEX*/
-
 /*NOSOTROS*/
 
 #nosotros{
@@ -365,43 +319,6 @@ td{
     font-size: 80px;
 }
 
-
-.wrapper__container-2{
-    display: grid;
-    grid-template-areas:
-    "iniciante entrenamiento avanzado";
-    grid-template-columns: 1fr 1fr 1fr;
-    color: #476b6b;
-    margin: 0 auto;
-    height: 40vh;
-    width: 80%;
-    margin-bottom: 50px;
-}
-
-.prueba__iniciante{
-    grid-area: iniciante;
-}
-
-.prueba__entrenamiento{
-    grid-area: entrenamiento;
-}
-
-.prueba__avanzado{
-    grid-area: avanzado;
-}
-
-.item2{
-    border: 2px outset #BADA55;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    font-size: 20px;
-    margin: 20px;
-}
-
-
 aside{
     text-align: center;
 }
@@ -534,31 +451,6 @@ footer{
         font-size: 15px;
     }
 
-    .item{
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
-
-    .item2{
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
-
-
-    .wrapper__container {
-        display: flex;
-        flex-direction: column;
-        height: 70vh;
-    }
-
-    .wrapper__container-2 {
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-    }
-
     table{
         display: none;
     }
@@ -588,13 +480,6 @@ footer{
         flex-direction: column;
     }
 
-    .wrapper__container{
-        height: 90vh;
-    }
-
-    .wrapper__container-2{
-        height: 60vh;
-    }
 
     .prueba__titulo{
         font-size: 60px;
@@ -625,27 +510,15 @@ footer{
         margin-top: 80px;
     }
 
-    .wrapper__container{
-        height: 90vh;
-    }
 
     .prueba__titulo{
         font-size: 40px;
         margin: 0 auto;
     }
 
-    .wrapper__container-2{
-        height: 70vh;
-    }
-
-    
-
 }
 
 @media screen and (max-width: 450px) {
-    .wrapper__container{
-        height: 100vh;
-    }
 
     .nosotros__titulo{
         font-size: 50px;
@@ -666,9 +539,6 @@ footer{
         font-size: 60px;
     }
 
-    .caracteristicas__titulo{
-        margin-top: 90px;
-    }
 
     #footer{
         margin-top: 250px;
